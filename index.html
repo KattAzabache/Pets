@@ -2,21 +2,23 @@
 <head>
     <meta charset ="utf-8">
     <title> Pets </title>
-      <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
       <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" type="text/css" href="fonts">
+      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"> 
       <script src="http://code.jquery.com/jquery-latest.js"></script>
       <link rel="icon" type="image/png" href="img/LOGO.png">
-      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
       <script src="mi-script.js"></script>
-      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"> 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="inicio"><!-- container -->
+    <section class="titulo">
+      <div class="container logo">
+        <img src="http://livedemo00.template-help.com/drupal_53821/sites/all/themes/theme984/logo.png">
+      </div>
+    </section>
     <section class="navegacion">
           <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -28,64 +30,62 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+               <!-- <a class="navbar-brand" href="#">Logo</a>-->
               </div>          
 
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav"><!-- 
-                  <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                <ul class="nav navbar-nav">
+                  <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
+                <ul class="nav navbar-nav navbar-left">
+                  <li><a href="#">HOME</a></li> 
+                  <li><a href="#">ABOUT US</a> </li>
+                  <li><a href="#">BLOG</a></li> 
+                  <li><a href="#">GALLERY</a></li> 
+                  <li><a href="#">CONTACTS</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
           </nav>
     </section>
-    <section class="carrusel-portada">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">            
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>
+    <section class="grid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="http://free-wallpapers-download.net/pictures/2/images/must-love-cats-wallpaper.jpg">
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="http://perrosjuegos.com/juegos/cachorro-cafe.jpeg">
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSHW2Wt_Jx2xG4sQNquB0F6GMpgS7UVfzGrV5goUqJq8vro9-y">
+           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="http://coolwallpaperz.info/user-content/uploads/wall/o/85/scarlat-scarlet-macaw-x-animal-445013.jpg">
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="https://4.bp.blogspot.com/-R26Yb5We0ZA/UgIclTa871I/AAAAAAAAEJM/6nyiypiw41U/s0/Clownfish_2560x1600.jpg">
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+           <div class="clases">
+             <img src="http://www.1wallpaperhd.com/wp-content/uploads/Animal/FTP1/2560x1600/Cute%20hamster%20Wallpapers%20HD%202560x1600.jpg">
+           </div>
+        </div>
+      </div>  
+    </section>  
 
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="http://www.mascotahogar.com/1920x1080/wallpaper-artistico-periquitos-blanco-negro.jpg" alt="Chania">
-                </div>
-
-                <div class="item">
-                  <img src="http://www.voiceable.org/wp-content/uploads/2013/02/98-waiting__-wallpaper-1920x1080.jpg" alt="Chania">
-                </div>
-
-                <div class="item">
-                  <img src="http://i1175.photobucket.com/albums/r632/rodcablan/gatos/cat_eyes_3-HD.jpg" alt="Flower">
-                </div>
-
-                <div class="item">
-                  <img src="http://www.desktopwallpaperhd.net/wallpapers/19/0/white-background-wallpaper-bunnies-black-rabbit-lovely-bunny-199648.jpg" alt="Flower">
-                </div>
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-    </section>
   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>       
