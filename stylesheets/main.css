@@ -5637,8 +5637,7 @@ button.close {
 .row {
   padding: 0;
   margin-right: 0;
-  margin-left: 0; 
-}
+  margin-left: 0; }
 
 .inicio {
   margin: 0;
@@ -5651,7 +5650,9 @@ button.close {
   background-color: #f9ee87;
   width: 100%; }
   .titulo .logo img {
-    padding: 5% 0; }
+    padding: 5% 0;
+    width: auto;
+    max-width: 100%; }
 
 /*navegacion*/
 section.navegacion {
@@ -5665,7 +5666,13 @@ section.navegacion {
     padding: 1% 5% 1%; }
 
 /*grid*/
+.todo-grid {
+  padding: 0; }
+
 .clases img {
   width: 100%; }
+
+.cuiddados h1 {
+  background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png); }
 
 /*# sourceMappingURL=main.css.map */

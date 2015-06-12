@@ -28,6 +28,8 @@
 	.logo{
 		img {
       padding: 5% 0 ;
+      width: auto;
+      max-width: 100%;
     }
 	}
 }
@@ -44,8 +46,17 @@ section.navegacion {
   }
 }
 /*grid*/
+.todo-grid{
+	padding: 0;
+}
 .clases{
 	img{
 		width: 100%;
 	}
 }
+.cuiddados{
+	h1{
+		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png);
+	}
+}
+
