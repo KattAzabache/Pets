@@ -43,6 +43,7 @@ section.navegacion {
     background-color: rgb(249, 238, 135);
     border-color: transparent;
     padding: 1% 5% 1%;
+    font-family: 'Anton', sans-serif;
   }
 }
 /*grid*/
@@ -54,9 +55,36 @@ section.navegacion {
 		width: 100%;
 	}
 }
-.cuiddados{
-	h1{
+/*texto*/
+.texto{
+	p {
+   font-size: 70px;
+   padding: 10%;
+   font-family: 'Anton', sans-serif;
+ }
+}
+/*cuidados*/
+.cuidados{
+	padding: 5%;
+	.fondo-img1{
+		padding: 5%;
+		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-1.png);
+		background-size: cover;
+	}
+	.fondo-img2{
+		padding: 5%;
+		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-2.png);
+		background-size: cover;
+	}
+	.fondo-img3{
+		padding: 5%;
+		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-3.png);
+		background-size: cover;
+	}	
+	.fondo-img4{
+		padding: 5%;
 		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png);
+		background-size: cover;
 	}
 }
 

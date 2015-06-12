@@ -5663,7 +5663,8 @@ section.navegacion {
     margin: 0;
     background-color: #f9ee87;
     border-color: transparent;
-    padding: 1% 5% 1%; }
+    padding: 1% 5% 1%;
+    font-family: 'Anton', sans-serif; }
 
 /*grid*/
 .todo-grid {
@@ -5672,7 +5673,30 @@ section.navegacion {
 .clases img {
   width: 100%; }
 
-.cuiddados h1 {
-  background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png); }
+/*texto*/
+.texto p {
+  font-size: 70px;
+  padding: 10%;
+  font-family: 'Anton', sans-serif; }
+
+/*cuidados*/
+.cuidados {
+  padding: 5%; }
+  .cuidados .fondo-img1 {
+    padding: 5%;
+    background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-1.png);
+    background-size: cover; }
+  .cuidados .fondo-img2 {
+    padding: 5%;
+    background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-2.png);
+    background-size: cover; }
+  .cuidados .fondo-img3 {
+    padding: 5%;
+    background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-3.png);
+    background-size: cover; }
+  .cuidados .fondo-img4 {
+    padding: 5%;
+    background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png);
+    background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
