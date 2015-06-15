@@ -5647,7 +5647,7 @@ button.close {
 
 /*titulo*/
 .titulo {
-  background-color: #f9ee87;
+  background-color: #B7F9B0;
   width: 100%; }
   .titulo .logo img {
     padding: 5% 0;
@@ -5661,7 +5661,7 @@ section.navegacion {
   left: 0; }
   section.navegacion nav.navbar.navbar-default {
     margin: 0;
-    background-color: #f9ee87;
+    background-color: #B7F9B0;
     border-color: transparent;
     padding: 1% 5% 1%;
     font-family: 'Anton', sans-serif; }
@@ -5751,13 +5751,13 @@ section.articulos {
     font-size: 80px;
     margin: 0;
     padding: 5% 0;
-    color: #f9ee87; }
+    color: #B7F9B0; }
   .imagen h2, .imagen h3 {
     font-family: 'Anton', sans-serif; }
   .imagen h1 {
     display: inline-block;
     font-family: 'Anton', sans-serif;
-    color: #f9ee87;
+    color: #B7F9B0;
     padding: 1%; }
 
 .footer {
