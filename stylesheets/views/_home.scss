@@ -62,29 +62,110 @@ section.navegacion {
    padding: 10%;
    font-family: 'Anton', sans-serif;
  }
+ img {
+  width: 100%;
+ }
 }
 /*cuidados*/
 .cuidados{
 	padding: 5%;
+	color: rgb(184, 184, 184);
+	h4 {
+    margin: 0;
+    padding: 3%;
+    color: black;
+  }
 	.fondo-img1{
-		padding: 5%;
+		padding: 25% 0 10%;
 		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-1.png);
 		background-size: cover;
+		h1 {
+      font-family: 'Anton', sans-serif;
+      color: rgb(184, 184, 184);
+    }
 	}
 	.fondo-img2{
-		padding: 5%;
+		padding: 25% 0 10%;
 		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-2.png);
 		background-size: cover;
+		h1 {
+      font-family: 'Anton', sans-serif;
+      color: rgb(184, 184, 184);
+    }
 	}
 	.fondo-img3{
-		padding: 5%;
+		padding: 25% 0 10%;
 		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-3.png);
 		background-size: cover;
+		h1 {
+      font-family: 'Anton', sans-serif;
+      color: rgb(184, 184, 184);
+    }
 	}	
 	.fondo-img4{
-		padding: 5%;
+		padding: 25% 0 10%;
 		background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png);
 		background-size: cover;
+		h1 {
+      font-family: 'Anton', sans-serif;
+      color: rgb(184, 184, 184);
+    }
 	}
 }
+/*articulos*/
+section.articulos {
+  background-color: rgb(48, 46, 46);
+  color: rgb(184, 184, 184);
+  padding: 5%;
+  .titul{
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    margin: 0;
+    padding: 5% 0;
+  }
+  .tipos{
+    img{
+    	width: 100%;
+    }
+    h1{
+    	font-family: 'Anton', sans-serif;
+    }
+    h4 {
+      margin: 0;
+      padding: 6% 0;
+    }
+    p {
+      margin: 0;
+      padding: 10% 0;
+      text-align: justify;
+    }
+  }
+}
+/*paralax*/
+.imagen{
+ background-attachment: fixed;
+ background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/parallax-one.jpg);
+ background-size: cover;
+ padding: 5%;
+ .grande{
+ 	font-family: 'Anton', sans-serif;
+  font-size: 80px;
+  margin: 0;
+  padding: 5% 0;
+  color: rgb(249, 238, 135);
+ }
+  h2 ,h3{
+    font-family: 'Anton', sans-serif;
+  }
+  h1{
+  	display: inline-block;
+  	font-family: 'Anton', sans-serif;
+  	color: rgb(249, 238, 135);
+  	padding: 1%;
+  }
 
+}
+.footer {
+  padding: 5%;
+  color: rgb(209, 209, 209);
+}

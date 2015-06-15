@@ -5678,25 +5678,90 @@ section.navegacion {
   font-size: 70px;
   padding: 10%;
   font-family: 'Anton', sans-serif; }
+.texto img {
+  width: 100%; }
 
 /*cuidados*/
 .cuidados {
-  padding: 5%; }
+  padding: 5%;
+  color: #b8b8b8; }
+  .cuidados h4 {
+    margin: 0;
+    padding: 3%;
+    color: black; }
   .cuidados .fondo-img1 {
-    padding: 5%;
+    padding: 25% 0 10%;
     background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-1.png);
     background-size: cover; }
+    .cuidados .fondo-img1 h1 {
+      font-family: 'Anton', sans-serif;
+      color: #b8b8b8; }
   .cuidados .fondo-img2 {
-    padding: 5%;
+    padding: 25% 0 10%;
     background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-2.png);
     background-size: cover; }
+    .cuidados .fondo-img2 h1 {
+      font-family: 'Anton', sans-serif;
+      color: #b8b8b8; }
   .cuidados .fondo-img3 {
-    padding: 5%;
+    padding: 25% 0 10%;
     background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-3.png);
     background-size: cover; }
+    .cuidados .fondo-img3 h1 {
+      font-family: 'Anton', sans-serif;
+      color: #b8b8b8; }
   .cuidados .fondo-img4 {
-    padding: 5%;
+    padding: 25% 0 10%;
     background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/icon-services-4.png);
     background-size: cover; }
+    .cuidados .fondo-img4 h1 {
+      font-family: 'Anton', sans-serif;
+      color: #b8b8b8; }
+
+/*articulos*/
+section.articulos {
+  background-color: #302e2e;
+  color: #b8b8b8;
+  padding: 5%; }
+  section.articulos .titul {
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    margin: 0;
+    padding: 5% 0; }
+  section.articulos .tipos img {
+    width: 100%; }
+  section.articulos .tipos h1 {
+    font-family: 'Anton', sans-serif; }
+  section.articulos .tipos h4 {
+    margin: 0;
+    padding: 6% 0; }
+  section.articulos .tipos p {
+    margin: 0;
+    padding: 10% 0;
+    text-align: justify; }
+
+/*paralax*/
+.imagen {
+  background-attachment: fixed;
+  background-image: url(http://livedemo00.template-help.com/drupal_53821/sites/default/files/parallax-one.jpg);
+  background-size: cover;
+  padding: 5%; }
+  .imagen .grande {
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    margin: 0;
+    padding: 5% 0;
+    color: #f9ee87; }
+  .imagen h2, .imagen h3 {
+    font-family: 'Anton', sans-serif; }
+  .imagen h1 {
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    color: #f9ee87;
+    padding: 1%; }
+
+.footer {
+  padding: 5%;
+  color: #d1d1d1; }
 
 /*# sourceMappingURL=main.css.map */
