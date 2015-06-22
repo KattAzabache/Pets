@@ -18,7 +18,7 @@
 <body>
   <div class="container inicio"><!--  -->
     <section class="titulo">
-      <div class="container logo">
+      <div class="container logo" id="HOME">
         <img src="http://livedemo00.template-help.com/drupal_53821/sites/all/themes/theme984/logo.png">
       </div>
     </section>
@@ -42,11 +42,11 @@
                   <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-left">
-                  <li><a href="#">HOME</a></li> 
-                  <li><a href="#">ABOUT US</a> </li>
-                  <li><a href="#">BLOG</a></li> 
-                  <li><a href="#">GALLERY</a></li> 
-                  <li><a href="#">CONTACTS</a></li>
+                  <li><a href="#HOME">HOME</a></li> 
+                  <li><a href="#ABOUT">ABOUT US</a> </li>
+                  <li><a href="#BLOG">BLOG</a></li> 
+                  <li><a href="#GALLERY">GALLERY</a></li> 
+                  <li><a href="#CONTACTS">CONTACTS</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -56,40 +56,64 @@
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
-             <img src="http://free-wallpapers-download.net/pictures/2/images/must-love-cats-wallpaper.jpg">
+             <img src="img/gato.jpg">
+              <div class="mascara">
+                <h1>Cats!</h1>
+              </div> 
            </div>
+
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
              <img src="http://perrosjuegos.com/juegos/cachorro-cafe.jpeg">
+              <div class="mascara">
+                <h1>Dogs!</h1>
+              </div> 
            </div>
+
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
              <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSHW2Wt_Jx2xG4sQNquB0F6GMpgS7UVfzGrV5goUqJq8vro9-y">
+              <div class="mascara">
+                <h1>Reptiles !</h1>
+              </div> 
            </div>
+
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
              <img src="http://coolwallpaperz.info/user-content/uploads/wall/o/85/scarlat-scarlet-macaw-x-animal-445013.jpg">
+              <div class="mascara">
+                <h1>Bird !</h1>
+              </div> 
            </div>
+
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
              <img src="https://4.bp.blogspot.com/-R26Yb5We0ZA/UgIclTa871I/AAAAAAAAEJM/6nyiypiw41U/s0/Clownfish_2560x1600.jpg">
+              <div class="mascara">
+                <h1>Fish !</h1>
+              </div> 
            </div>
+
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 todo-grid">
            <div class="clases">
              <img src="http://www.1wallpaperhd.com/wp-content/uploads/Animal/FTP1/2560x1600/Cute%20hamster%20Wallpapers%20HD%202560x1600.jpg">
+              <div class="mascara">
+                <h1>Hámster !</h1>
+              </div> 
            </div>
+
         </div>
       </div>  
     </section>  
-    <section class="texto">
-      <div class="row">
+    <section class="texto" id="ABOUT">
+      <div class="row" >
         <div class="col-lg-6">
           <p>Choose the best way to support our animals</p>
         </div>
@@ -98,7 +122,7 @@
         </div>
       </div>
     </section>
-    <section class="cuidados">
+    <section class="cuidados" id="BLOG">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
           <div class="fondo-img1">
@@ -138,31 +162,37 @@
         </div>
       </div>
     </section>
-    <section class="articulos">
+    <section class="articulos" id="GALLERY">
       <h1 class="titul">Latest articles:</h1>
-      <div class="row tipos ">
+      <div class="row tipos" >
         <div class="col-md-4">
           <h1>04/15</h1>
           <h4>Praesent vestibulum aenean nonummy hendrerit mauris.</h4>
-          <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-3.jpg?itok=w7rt1wJ7">
+          <div class="tipos-img">
+            <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-3.jpg?itok=w7rt1wJ7">
+          </div>
           <p>Vivamus vel eros eget magna volutpat sagittis. Nulla faucibus nibh a magna tincidunt accumsan hendrerit nunc facilisis. Curabitur et libero sit amet ante hendrerit molestie. Cras a erat in leo</p>
         </div>
         <div class="col-md-4">
           <h1>04/15</h1>
           <h4>Praesent vestibulum aenean nonummy hendrerit mauris.</h4>
-          <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-5.jpg?itok=1I_iTjVY">
+          <div class="tipos-img">
+             <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-5.jpg?itok=1I_iTjVY">
+          </div>
           <p>Vivamus vel eros eget magna volutpat sagittis. Nulla faucibus nibh a magna tincidunt accumsan hendrerit nunc facilisis. Curabitur et libero sit amet ante hendrerit molestie. Cras a erat in leo</p>
         </div>
         <div class="col-md-4">
           <h1>04/15</h1>
           <h4>Praesent vestibulum aenean nonummy hendrerit mauris.</h4>
-          <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-2.jpg?itok=S1NOxYkg">
+          <div class="tipos-img">
+              <img src="http://livedemo00.template-help.com/drupal_53821/sites/default/files/styles/370x219/public/img-2.jpg?itok=S1NOxYkg">
+          </div>
           <p>Vivamus vel eros eget magna volutpat sagittis. Nulla faucibus nibh a magna tincidunt accumsan hendrerit nunc facilisis. Curabitur et libero sit amet ante hendrerit molestie. Cras a erat in leo</p>
         </div>
       </div>
     </section>
     <section class="paralax">
-      <div class="imagen">
+      <div class="imagen" id="CONTACTS">
         <div class="row">
           <div class="col-md-6">
             <h1 class="grande">Vaccinate your pets in Chicago</h1>
