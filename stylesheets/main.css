@@ -5746,7 +5746,7 @@ section#ABOUT {
   padding: 2%; }
 
 .texto p {
-  font-size: 90px;
+  font-size: 80px;
   padding: 10%;
   font-family: 'Anton', sans-serif; }
 .texto img {
@@ -5849,15 +5849,15 @@ section.articulos {
 
 @media screen and (max-width: 370px) {
   .texto p {
-    font-size: 70px; } }
+    font-size: 50px; } }
 @media screen and (max-width: 370px) {
   section.articulos .titul {
     font-family: 'Anton', sans-serif;
-    font-size: 65px; } }
+    font-size: 55px; } }
 @media screen and (max-width: 370px) {
   .imagen .grande {
     font-family: 'Anton', sans-serif;
-    font-size: 55px; } }
+    font-size: 50px; } }
 @media screen and (max-width: 370px) {
   .footer img {
     width: 100%; } }
